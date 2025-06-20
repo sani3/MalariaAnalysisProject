@@ -1,0 +1,41 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+log_malaria_incidence ~ s(population_density) + s(urban_population_growth) + 
+    s(population_living_in_slums) + s(rural_population_growth) + 
+    s(people_using_safely_managed_sanitation_services_rural) + 
+    s(people_using_at_least_basic_sanitation_services) + s(che_gdp) + 
+    s(ope_che)
+
+Parametric coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 5.801497   0.003696    1570   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                                                           edf Ref.df      F p-value
+s(population_density)                                    5.228  5.722  1.702 0.18133
+s(urban_population_growth)                               1.000  1.000  0.546 0.46316
+s(population_living_in_slums)                            7.455  8.197 21.686 < 2e-16
+s(rural_population_growth)                               2.081  2.600  0.643 0.52565
+s(people_using_safely_managed_sanitation_services_rural) 5.040  5.651  4.637 0.02787
+s(people_using_at_least_basic_sanitation_services)       6.887  7.336  5.612 0.02458
+s(che_gdp)                                               1.776  2.235  0.410 0.79620
+s(ope_che)                                               3.426  4.297  3.687 0.00909
+                                                            
+s(population_density)                                       
+s(urban_population_growth)                                  
+s(population_living_in_slums)                            ***
+s(rural_population_growth)                                  
+s(people_using_safely_managed_sanitation_services_rural) *  
+s(people_using_at_least_basic_sanitation_services)       *  
+s(che_gdp)                                                  
+s(ope_che)                                               ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.979   Deviance explained = 98.7%
+-REML = -87.948  Scale est. = 0.0012022  n = 88

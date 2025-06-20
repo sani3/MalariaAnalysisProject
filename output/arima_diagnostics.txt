@@ -1,0 +1,40 @@
+Country: Niger 
+
+	Box-Ljung test
+
+data:  residuals(arima_model)
+X-squared = 0.53578, df = 1, p-value = 0.4642
+
+
+Country: Nigeria 
+
+	Box-Ljung test
+
+data:  residuals(arima_model)
+X-squared = 0.008904, df = 1, p-value = 0.9248
+
+
+Country: Cameroon 
+
+	Box-Ljung test
+
+data:  residuals(arima_model)
+X-squared = 0.31161, df = 1, p-value = 0.5767
+
+
+Country: Chad 
+
+	Box-Ljung test
+
+data:  residuals(arima_model)
+X-squared = 0.065234, df = 1, p-value = 0.7984
+
+
+Country: Benin 
+
+	Box-Ljung test
+
+data:  residuals(arima_model)
+X-squared = 0.0034647, df = 1, p-value = 0.9531
+
+

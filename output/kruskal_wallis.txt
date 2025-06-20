@@ -1,0 +1,6 @@
+
+	Kruskal-Wallis rank sum test
+
+data:  malaria_incidence_rate by country
+Kruskal-Wallis chi-squared = 64.861, df = 4, p-value = 2.753e-13
+

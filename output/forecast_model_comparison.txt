@@ -1,0 +1,36 @@
+
+	Paired t-test
+
+data:  mse_values$ARIMA and mse_values$ETS
+t = -0.69895, df = 4, p-value = 0.5231
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -221.0797  132.1553
+sample estimates:
+mean difference 
+       -44.4622 
+
+
+	Paired t-test
+
+data:  mse_values$ARIMA and mse_values$DNN
+t = -1.2835, df = 4, p-value = 0.2686
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -973.4525  357.9744
+sample estimates:
+mean difference 
+       -307.739 
+
+
+	Paired t-test
+
+data:  mse_values$ETS and mse_values$DNN
+t = -0.94531, df = 4, p-value = 0.398
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -1036.5396   509.9859
+sample estimates:
+mean difference 
+      -263.2768 
+

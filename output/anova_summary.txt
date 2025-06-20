@@ -1,0 +1,5 @@
+             Df Sum Sq Mean Sq F value Pr(>F)    
+country       4 428142  107035    41.6 <2e-16 ***
+Residuals   105 270130    2573                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,41 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: log_malaria_incidence ~ population_density + urban_population_growth +  
+    population_living_in_slums + rural_population_growth + people_using_safely_managed_sanitation_services_rural +  
+    people_using_at_least_basic_sanitation_services + che_gdp +  
+    ope_che + (1 | country)
+   Data: train_obj3
+
+REML criterion at convergence: -125.7
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-2.06084 -0.69850 -0.08173  0.74666  1.93550 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ country  (Intercept) 0.376399 0.61351 
+ Residual             0.006885 0.08298 
+Number of obs: 88, groups:  country, 5
+
+Fixed effects:
+                                                       Estimate Std. Error t value
+(Intercept)                                            5.794819   0.274521  21.109
+population_density                                    -0.194161   0.134811  -1.440
+urban_population_growth                                0.004021   0.017003   0.236
+population_living_in_slums                             0.229797   0.029269   7.851
+rural_population_growth                                0.010725   0.069431   0.154
+people_using_safely_managed_sanitation_services_rural  0.430143   0.197506   2.178
+people_using_at_least_basic_sanitation_services       -0.016893   0.148472  -0.114
+che_gdp                                               -0.019313   0.017541  -1.101
+ope_che                                                0.075319   0.023116   3.258
+
+Correlation of Fixed Effects:
+              (Intr) ppltn_ urbn__ ppl___ rrl_p_ ppl_sng_s____ ppl_sng_t____ ch_gdp
+ppltn_dnsty    0.005                                                               
+urbn_ppltn_    0.001  0.439                                                        
+ppltn_lvn__    0.003  0.367  0.074                                                 
+rrl_ppltn_g    0.005  0.272  0.037  0.099                                          
+ppl_sng_s____ -0.003 -0.056  0.166 -0.155 -0.523                                   
+ppl_sng_t____  0.001 -0.537 -0.273  0.063  0.449 -0.686                            
+che_gdp        0.002  0.160 -0.128  0.022  0.248 -0.221         0.087              
+ope_che       -0.002 -0.385 -0.061 -0.054 -0.090  0.170         0.165         0.086
